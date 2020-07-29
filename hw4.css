@@ -1,0 +1,103 @@
+body {
+
+  /* font parameters */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+
+  /* added padding to prevent navbar overlap. (100 based on browser inpector of size) */
+  padding-top: 90px;
+}
+
+button {
+  margin: 1em;
+}
+
+.navbar {
+  background-color: pink;  
+  color: #b6d7e2;  
+  /* pulls everything down to push up against bottom border */
+  padding-bottom: 0;
+
+  /* allows ??? to control the horizontal position */
+  padding-left: 0;
+
+  /* creates solid line for the bottom border  */
+  border-bottom: solid;
+  border-bottom-color: #ccc;
+  width: 100%;
+}
+
+#navbar-title {
+  padding: 15px;
+  font-size: 30px;
+  background-color: salmon;
+  color: #fff !important;
+}
+
+/* container for nav header */
+.container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.nav-link:hover {
+  background-color: #b6d7e2;  
+  color: #666;
+}
+
+.right {
+ 
+}
+
+#details {
+  /* background-color: #73919b;   */
+  background-color: #b6d7e2;  
+  /* provides spacing between the top and bottom nav bars and the content */
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+  /* provide spaceing around the text */
+  padding: 40px;
+} 
+
+li {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #897d9a;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: purple;
+}
+
+#answer-image {
+  float: left;
+  padding-right: 1em;
+  padding-top: 0.25em;
+}
+
+#startQuiz{
+  /* TODO style buttom */
+}
+
+/* removes verticle lines between text */
+  li {
+    border-right: none;
+  }
+
+/* collapses space between menu options when they stack vertically*/
+  .nav-link{
+    padding: 1px;
+  }
+}
